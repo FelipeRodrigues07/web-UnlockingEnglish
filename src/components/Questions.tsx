@@ -12,7 +12,7 @@ import {
 
 function Questions() {
   return (
-    <Flex direction="column" mt="525px">
+    <Flex direction="column" mt="115px">
       <Flex
         w="100%"
         justifyContent="center"
@@ -23,7 +23,7 @@ function Questions() {
         </Text>
       </Flex>
 
-      <Flex mx="auto" maxW={900} mt="65px">
+      <Flex mx="auto" maxW={900} mt="45px">
         <Accordion
           allowToggle
           w={{ base: "300px", sm: "400px", md: "700px", lg: "900px" }}

@@ -12,15 +12,16 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { BsInstagram } from "react-icons/bs";
 
 function Prof(): React.JSX.Element {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
   return (
-    <Flex direction="column" mt="125px">
+    <Flex direction="column" mt="0px">
       <Flex
         w="100%"
         justifyContent="center"
@@ -52,7 +53,7 @@ function Prof(): React.JSX.Element {
               </Text>
               <Flex direction="row" justifyContent="center" mt="42px">
                 <IconButton
-                  icon={<FaLinkedin />}
+                  icon={<FaYoutube />}
                   isRound={true}
                   aria-label="Linkedin"
                   onClick={() =>
@@ -64,7 +65,7 @@ function Prof(): React.JSX.Element {
 
                 <IconButton
                   ml={2}
-                  icon={<FaGithub />}
+                  icon={<BsInstagram />}
                   isRound={true}
                   aria-label="Github"
                   onClick={() =>
@@ -110,7 +111,7 @@ function Prof(): React.JSX.Element {
               </Text>
               <Flex direction="row" justifyContent="center" mt="42px">
                 <IconButton
-                  icon={<FaLinkedin />}
+                  icon={<FaYoutube />}
                   isRound={true}
                   aria-label="Linkedin"
                   onClick={() =>
@@ -122,7 +123,7 @@ function Prof(): React.JSX.Element {
 
                 <IconButton
                   ml={2}
-                  icon={<FaGithub />}
+                  icon={<BsInstagram />}
                   isRound={true}
                   aria-label="Github"
                   onClick={() =>
