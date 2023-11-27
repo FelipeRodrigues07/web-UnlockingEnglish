@@ -7,6 +7,8 @@ import Section from "@/components/Section";
 import Questions from "@/components/Questions";
 import Footer from "@/components/Footer";
 import Prof from "@/components/Prof";
+import Skills from "@/components/Skills";
+
 import { Flex, Slider, Text, AspectRatio, Box } from "@chakra-ui/react";
 
 export default function Home() {
@@ -14,6 +16,7 @@ export default function Home() {
     <Flex direction="column" mt="0">
       <Header />
       <Section />
+      <Skills />
       <Prof />
       <Questions />
       <Footer />

@@ -99,6 +99,7 @@ export default function Section() {
           w={"full"}
         >
           <Blob
+            display={{ base: "none", md: "none", lg: "flex" }}
             w={{ base: "100%", sm: "150%", md: "100%", lg: "100%", xl: "100%" }}
             h={{ base: "150%", sm: "150%", md: "150%", lg: "150%", xl: "150%" }}
             position={"absolute"}

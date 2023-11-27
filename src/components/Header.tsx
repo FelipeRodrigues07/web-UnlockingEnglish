@@ -141,7 +141,7 @@ function Header() {
           scrollToPosition(700);
         }}*/
         onClick={() => {
-          router.push("/integrantes");
+          router.push("/metodologia");
         }}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
@@ -149,7 +149,7 @@ function Header() {
         borderRadius={5}
         display={{ base: "none", md: "flex" }}
         borderBottom={
-          asPath === "/integrantes"
+          asPath === "/metodologia"
             ? isDark
               ? "1px solid #fff"
               : "1px solid #000"
@@ -166,7 +166,7 @@ function Header() {
 
       <ChakraLink
         onClick={() => {
-          router.push("/curso");
+          router.push("/depoimentos");
         }}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
@@ -174,7 +174,7 @@ function Header() {
         borderRadius={5}
         display={{ base: "none", md: "flex" }}
         borderBottom={
-          asPath === "/curso"
+          asPath === "/depoimentos"
             ? isDark
               ? "1px solid #fff"
               : "1px solid #000"
