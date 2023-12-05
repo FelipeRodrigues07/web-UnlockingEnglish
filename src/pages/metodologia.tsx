@@ -41,16 +41,17 @@ function metodologias() {
           spacing={{ base: 8, md: 14 }}
           py={{ base: 20, md: 36 }}
         >
-          <Heading
+          <Text
             fontWeight={600}
             fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
             lineHeight={"110%"}
+            color={isDark ? "#ffffff" : "gray.500"}
           >
             Make money from <br />
-            <Text as={"span"} color={"green.400"}>
+            <Text as={"span"} color={isDark ? "#ffffff" : "#050A30"}>
               your audience
             </Text>
-          </Heading>
+          </Text>
           <Text color={"gray.500"}>
             Monetize your content by charging your most loyal readers and reward
             them loyalty points. Give back to your loyal readers by granting
@@ -71,6 +72,7 @@ function metodologias() {
               _hover={{
                 bg: "green.500",
               }}
+              color="white"
             >
               Começe agora
             </Button>
