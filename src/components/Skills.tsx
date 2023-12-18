@@ -25,9 +25,9 @@ function Skills() {
       <Flex
         w="100%"
         justifyContent="center"
-        mt={{ base: "70px", sm: "70px", md: "100px", lg: "150px" }}
+        mt={{ base: "100px", sm: "70px", md: "100px", lg: "150px" }}
       >
-        <Text fontSize={{ base: "22px", sm: "40px", md: "50px", lg: "30px" }}>
+        <Text fontSize={{ base: "22px", sm: "40px", md: "50px", lg: "30px" }} ml={{base: "25px"}}>
           O melhor investimento que você pode fazer é em você mesmo
         </Text>
       </Flex>
@@ -103,11 +103,11 @@ function Skills() {
           >
             <CardBody>
               <Image
-                src="/converstion5.png"
+                src="/corversation3.png"
                 h="100px"
                 alt="image not available"
                 borderRadius="lg"
-                ml="65px"
+                ml="25px"
               />
               <List textAlign="start" mt="25px">
                 <ListItem>

@@ -86,6 +86,7 @@ export default function Section() {
               fontWeight={"normal"}
               px={6}
               leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
+              display={{ base: "none", md: "flex" }}
             >
               Saiba mais
             </Button>

@@ -13,7 +13,7 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import Header from "@/components/Header";
-
+import Skills from "@/components/Skills";
 const Arrow = createIcon({
   displayName: "Arrow",
   viewBox: "0 0 72 24",
@@ -34,7 +34,8 @@ function metodologias() {
   return (
     <Flex direction="column" mt="0">
       <Header />
-      <Container maxW={"3xl"}>
+      <Skills/>
+      <Container maxW={"3xl"} mt="78px">
         <Stack
           as={Box}
           textAlign={"center"}
@@ -47,9 +48,9 @@ function metodologias() {
             lineHeight={"110%"}
             color={isDark ? "#ffffff" : "gray.500"}
           >
-            Make money from <br />
+            Pare de dizer que não <br />
             <Text as={"span"} color={isDark ? "#ffffff" : "#050A30"}>
-              your audience
+              é bom em aprender!
             </Text>
           </Text>
           <Text color={"gray.500"}>

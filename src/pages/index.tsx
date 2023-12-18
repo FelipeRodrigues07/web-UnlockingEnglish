@@ -16,7 +16,6 @@ export default function Home() {
     <Flex direction="column" mt="0">
       <Header />
       <Section />
-      <Skills />
       <Prof />
       <Questions />
       <Footer />
