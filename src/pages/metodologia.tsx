@@ -54,9 +54,7 @@ function Metodologias() {
             </Text>
           </Text>
           <Text color={"gray.500"}>
-            Monetize your content by charging your most loyal readers and reward
-            them loyalty points. Give back to your loyal readers by granting
-            them access to your pre-releases and sneak-peaks.
+            Apenas 5% dos brasileiros fala inglês. Destaque-se e desbloqueie um futuro brilhante!
           </Text>
           <Stack
             direction={"column"}

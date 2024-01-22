@@ -17,7 +17,7 @@ function Footer() {
         color="white"
         textAlign="center"
       >
-        © 2023 UnlockingEnglish. All Rights Reserved.
+        © 2024 UnlockingEnglish. All Rights Reserved.
       </Text>
       <Flex justifyContent="center" mt="10px">
         <Avatar src="/logo2.jpeg" />
