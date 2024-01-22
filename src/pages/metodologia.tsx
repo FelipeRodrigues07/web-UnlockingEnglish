@@ -69,7 +69,7 @@ function Metodologias() {
               rounded={"full"}
               px={6}
               _hover={{
-                bg: "green.500",
+                bg: "gray.500",
               }}
               color="white"
             >
@@ -86,11 +86,11 @@ function Metodologias() {
                 top={"10px"}
               />
               <Text
-                fontSize={"lg"}
+                fontSize="12px"
                 fontFamily={"Caveat"}
                 position={"absolute"}
-                right={"-125px"}
-                top={"-15px"}
+                right={"-100px"}
+                top={"-5px"}
                 transform={"rotate(10deg)"}
               >
                 Não perca tempo
