@@ -27,7 +27,7 @@ const Arrow = createIcon({
   ),
 });
 
-function metodologias() {
+function Metodologias() {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
 
@@ -105,4 +105,4 @@ function metodologias() {
   );
 }
 
-export default metodologias;
+export default Metodologias;
