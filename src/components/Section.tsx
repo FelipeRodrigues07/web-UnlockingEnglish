@@ -75,21 +75,12 @@ export default function Section() {
               color="white"
               colorScheme={"red"}
               bg={"#050A30"}
-              _hover={{ bg: "red.500" }}
+              _hover={{ bg: "gray.500" }}
               onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
             >
               comece agora
             </Button>
-            <Button
-              rounded={"full"}
-              size={"lg"}
-              fontWeight={"normal"}
-              px={6}
-              leftIcon={<PlayIcon h={4} w={4} color={"gray.300"} />}
-              display={{ base: "none", md: "flex" }}
-            >
-              Saiba mais
-            </Button>
+            
           </Stack>
         </Stack>
         <Flex

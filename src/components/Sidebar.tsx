@@ -11,6 +11,7 @@ import { useRouter } from "next/router";
 import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { BsYoutube } from "react-icons/bs";
 
 function SidebarNav() {
   const router = useRouter();
@@ -45,26 +46,6 @@ function SidebarNav() {
         </ChakraLink>
         <ChakraLink
           onClick={() => {
-            router.push("/projects");
-          }}
-          _hover={{ bg: "gray.100" }} // underline é para efeito
-          px="4"
-          py="2"
-          borderRadius={5}
-          boxShadow={
-            asPath === "/projects"
-              ? isDark
-                ? " 0 1px 0 #fff"
-                : "0 1px 0 #000000"
-              : ""
-          }
-        >
-          <Text fontSize="xl" fontWeight="medium">
-            Diferenciais
-          </Text>
-        </ChakraLink>
-        <ChakraLink
-          onClick={() => {
             router.push("/metodologia");
           }}
           _hover={{ bg: "gray.100" }} // underline é para efeito
@@ -85,14 +66,14 @@ function SidebarNav() {
         </ChakraLink>
         <ChakraLink
           onClick={() => {
-            router.push("/contact");
+            router.push("/depoimentos");
           }}
           _hover={{ bg: "gray.100" }} // underline é para efeito
           px="4"
           py="2"
           borderRadius={5}
           boxShadow={
-            asPath === "/contact"
+            asPath === "/depoimentos"
               ? isDark
                 ? " 0 1px 0 #fff"
                 : "0 1px 0 #000000"
@@ -101,6 +82,26 @@ function SidebarNav() {
         >
           <Text fontSize="xl" fontWeight="medium">
             Depoimentos
+          </Text>
+        </ChakraLink>
+        <ChakraLink
+          onClick={() => {
+            router.push("/");
+          }}
+          _hover={{ bg: "gray.100" }} // underline é para efeito
+          px="4"
+          py="2"
+          borderRadius={5}
+          boxShadow={
+            asPath === "/projects"
+              ? isDark
+                ? " 0 1px 0 #fff"
+                : "0 1px 0 #000000"
+              : ""
+          }
+        >
+          <Text fontSize="xl" fontWeight="medium">
+            Contatos
           </Text>
         </ChakraLink>
         <ChakraLink
@@ -123,28 +124,19 @@ function SidebarNav() {
         </Text>
         <Flex>
           <Flex direction="row">
-            <IconButton
-              icon={<FaLinkedin />}
-              isRound={true}
-              aria-label="Linkedin"
-              onClick={() =>
-                window.open(
-                  "https://www.linkedin.com/in/felipe-rodrigues-3182b7264"
-                )
-              }
-            ></IconButton>
+            
             <IconButton
               ml={2}
               icon={<FaInstagram />}
               isRound={true}
               aria-label="Instagram"
               onClick={() =>
-                window.open("https://www.instagram.com/feliperodrigues497")
+                window.open("https://www.instagram.com/lets.santiago/")
               }
             ></IconButton>
             <IconButton
               ml={2}
-              icon={<FaGithub />}
+              icon={<BsYoutube />}
               isRound={true}
               aria-label="Github"
               onClick={() =>

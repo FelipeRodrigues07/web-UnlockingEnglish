@@ -113,30 +113,6 @@ function Header() {
         </Text>
       </ChakraLink>
       <ChakraLink
-        onClick={() => {
-          router.push("/projetos");
-        }}
-        _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
-        px="4"
-        py="2"
-        borderRadius={5}
-        display={{ base: "none", md: "flex" }}
-        borderBottom={
-          asPath === "/projetos"
-            ? isDark
-              ? "1px solid #fff"
-              : "1px solid #000"
-            : ""
-        }
-      >
-        <Text
-          color={isDark ? "#ffffff" : "blue.700"}
-          display={{ base: "none", md: "flex" }}
-        >
-          Diferenciais
-        </Text>
-      </ChakraLink>
-      <ChakraLink
         /*  onClick={() => {
           scrollToPosition(700);
         }}*/
@@ -188,10 +164,33 @@ function Header() {
           Depoimentos
         </Text>
       </ChakraLink>
-
       <ChakraLink
         onClick={() => {
-          router.push("/entrar");
+          router.push("/");
+        }}
+        _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
+        px="4"
+        py="2"
+        borderRadius={5}
+        display={{ base: "none", md: "flex" }}
+        borderBottom={
+          asPath === "/projetos"
+            ? isDark
+              ? "1px solid #fff"
+              : "1px solid #000"
+            : ""
+        }
+      >
+        <Text
+          color={isDark ? "#ffffff" : "blue.700"}
+          display={{ base: "none", md: "flex" }}
+        >
+          Contatos
+        </Text>
+      </ChakraLink>
+      <ChakraLink
+        onClick={() => {
+          router.push("/");
         }}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"

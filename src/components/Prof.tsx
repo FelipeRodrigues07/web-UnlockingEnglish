@@ -52,24 +52,14 @@ function Prof(): React.JSX.Element {
                 João Neto
               </Text>
               <Flex direction="row" justifyContent="center" mt="42px">
-                <IconButton
-                  icon={<FaYoutube />}
-                  isRound={true}
-                  aria-label="Linkedin"
-                  onClick={() =>
-                    window.open(
-                      "https://www.linkedin.com/in/felipe-rodrigues-3182b7264"
-                    )
-                  }
-                ></IconButton>
 
                 <IconButton
-                  ml={2}
+                  
                   icon={<BsInstagram />}
                   isRound={true}
                   aria-label="Github"
                   onClick={() =>
-                    window.open("https://github.com/FelipeRodrigues07")
+                    window.open("https://www.instagram.com/joaoneto.b10/")
                   }
                 ></IconButton>
                 <IconButton
@@ -110,24 +100,14 @@ function Prof(): React.JSX.Element {
                 Letícia Santiago
               </Text>
               <Flex direction="row" justifyContent="center" mt="42px">
-                <IconButton
-                  icon={<FaYoutube />}
-                  isRound={true}
-                  aria-label="Linkedin"
-                  onClick={() =>
-                    window.open(
-                      "https://www.linkedin.com/in/felipe-rodrigues-3182b7264"
-                    )
-                  }
-                ></IconButton>
 
                 <IconButton
-                  ml={2}
+                  
                   icon={<BsInstagram />}
                   isRound={true}
                   aria-label="Github"
                   onClick={() =>
-                    window.open("https://github.com/FelipeRodrigues07")
+                    window.open("https://www.instagram.com/lets.santiago/")
                   }
                 ></IconButton>
                 <IconButton
