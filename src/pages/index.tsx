@@ -14,6 +14,7 @@ import { Flex, Slider, Text, AspectRatio, Box } from "@chakra-ui/react";
 export default function Home() {
   return (
     <Flex direction="column" mt="0">
+      <title>UnlockingEnglish</title>
       <Header />
       <Section />
       <Prof />
