@@ -41,14 +41,16 @@ function Header() {
     md: false,
   });
 
-  /*
-  function scrollToPosition(y) {
-    window.scrollTo({
-      top: y,
-      behavior: "smooth", // para uma transição suave
-    });
+  
+  const irParaHomeEDescer = () => {
+    router.push('/').then(() => 
+      window.scrollTo({
+        top: 700,
+        behavior: "smooth"
+      })
+    )
   }
-*/
+
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
 
@@ -113,9 +115,7 @@ function Header() {
         </Text>
       </ChakraLink>
       <ChakraLink
-        /*  onClick={() => {
-          scrollToPosition(700);
-        }}*/
+          
         onClick={() => {
           router.push("/metodologia");
         }}
@@ -141,9 +141,7 @@ function Header() {
       </ChakraLink>
 
       <ChakraLink
-        onClick={() => {
-          router.push("/depoimentos");
-        }}
+         onClick={irParaHomeEDescer}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"

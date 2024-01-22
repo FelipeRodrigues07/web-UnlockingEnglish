@@ -21,6 +21,17 @@ function SidebarNav() {
   const { colorMode } = useColorMode();
   const isDark = colorMode === "dark";
 
+
+
+  const irParaHomeEDescer = () => {
+    router.push('/').then(() => 
+      window.scrollTo({
+        top: 700,
+        behavior: "smooth"
+      })
+    )
+  }
+
   return (
     <Stack spacing="6">
       <Stack>
@@ -65,9 +76,7 @@ function SidebarNav() {
           </Text>
         </ChakraLink>
         <ChakraLink
-          onClick={() => {
-            router.push("/depoimentos");
-          }}
+          onClick={irParaHomeEDescer}
           _hover={{ bg: "gray.100" }} // underline é para efeito
           px="4"
           py="2"
