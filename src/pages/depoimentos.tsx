@@ -5,6 +5,7 @@ import Info from "@/components/Info";
 function depoimentos() {
   return (
     <Flex direction="column" mt="0">
+       <title>UnlockingEnglish-Depoimentos</title>
       <Header />
       <Info />
     </Flex>

@@ -33,6 +33,7 @@ function Metodologias() {
 
   return (
     <Flex direction="column" mt="0">
+       <title>UnlockingEnglish-Metodologia</title>
       <Header />
       <Skills/>
       <Container maxW={"3xl"} mt="78px">
@@ -72,6 +73,7 @@ function Metodologias() {
                 bg: "gray.500",
               }}
               color="white"
+              onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
             >
               Começe agora
             </Button>
