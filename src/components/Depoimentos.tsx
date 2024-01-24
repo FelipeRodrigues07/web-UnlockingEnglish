@@ -48,7 +48,7 @@ function Depoimentos(): React.JSX.Element {
             _hover={{ boxShadow: isDark ? " " : "" }}
           >
             
-              <Image src="/depoimento3.png" w="100%" h="100%"  alt="descrição da imagem" ></Image>
+              <Image src="/depoimento3.png" w="100%" h="100%"  alt="descrição da imagem"  ></Image>
             
           </Card>
           <Card
