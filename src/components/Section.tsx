@@ -59,9 +59,8 @@ export default function Section() {
             </Text>
           </Heading>
           <Text color={isDark ? "#ffffff" : "gray.500"}>
-            O método UnlockingEnglish é para todos os níveis, sendo aconselhado
-            para quem deseja desenvolver ou aprimorar o inglês! Para quem quer
-            dominar o inglês de maneira simples e descomplicada.
+          O UnlockingEnglish é um curso completo que vai te ensinar a ouvir, escrever e falar Inglês fluentemente. 
+          Destrave o idioma que te leva a qualquer lugar do mundo e melhora suas chances no mercado de trabalho. 
           </Text>
           <Stack
             spacing={{ base: 4, sm: 6 }}

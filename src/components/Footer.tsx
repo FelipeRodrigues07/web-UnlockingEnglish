@@ -10,7 +10,7 @@ function Footer() {
       mx="auto"
       h="216px"
       backgroundColor="#050A30"
-      mt={{ base: "100px", sm: "50px", md: "80px", lg: "300px" }}
+      mt={{ base: "100px", sm: "50px", md: "80px", lg: "200px" }}
     >
       <Text
         fontSize={{ base: "8px", sm: "15px", md: "15px", lg: "15px" }}

@@ -36,7 +36,7 @@ function Depoimentos(): React.JSX.Element {
         <SimpleGrid
           columnGap="55px"
           rowGap="50px"
-          columns={[1, 2, 2, 2]}
+          columns={[1, 2, 2, 3]}
           w="100"
         >
          
@@ -59,6 +59,16 @@ function Depoimentos(): React.JSX.Element {
             _hover={{ boxShadow: isDark ? " " : "" }}
           >
              <Image src="/depoimento4.png" w="100%" h="100%"  alt="descrição da imagem" ></Image>
+             
+          </Card>
+          <Card
+            w="270px"
+            h="450px"
+            boxShadow="none"
+            backgroundColor={isDark ? "#010409" : "#ffffff"}
+            _hover={{ boxShadow: isDark ? " " : "" }}
+          >
+             <Image src="/feedback3.png" w="100%" h="100%"  alt="descrição da imagem" ></Image>
              
           </Card>
         </SimpleGrid>

@@ -10,12 +10,19 @@ import {
   useColorMode,
   Avatar,
   IconButton,
+  List,
+  ListIcon,
+  ListItem
 } from "@chakra-ui/react";
-
+import { RiSpeakFill } from "react-icons/ri";
+import { FaRegAddressBook } from "react-icons/fa";
 import { FaGithub, FaLinkedin, FaYoutube } from "react-icons/fa";
+import { GiNotebook } from "react-icons/gi";
 import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsInstagram } from "react-icons/bs";
+import { PiStudentFill } from "react-icons/pi";
+import { GrCertificate } from "react-icons/gr";
 
 function Prof(): React.JSX.Element {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -51,7 +58,35 @@ function Prof(): React.JSX.Element {
               <Text textAlign="center" fontSize="20px" mt="15px" mb="5px">
                 João Neto
               </Text>
-              <Flex direction="row" justifyContent="center" mt="42px">
+              <List textAlign="start" mt="10px">
+                <ListItem fontSize="11px">
+                  <ListIcon
+                    as={FaRegAddressBook }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                  Criador do Curso UnockingEnglish.
+                </ListItem>
+              </List>
+              <List  mt="3px">
+                <ListItem fontSize="11px">
+                  <ListIcon
+                    as={RiSpeakFill }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                 Se tornou fluente em Inglês aos 15 anos de idade. 
+                </ListItem>
+              </List>
+              <List textAlign="start" mt="3px">
+                <ListItem fontSize="11px">
+                  <ListIcon
+                    as={GiNotebook  }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                 Dá aulas de Inglês desde os 17 anos de idade. 
+                </ListItem>
+              </List>
+
+              <Flex direction="row" justifyContent="center" mt="5px">
 
                 <IconButton
                   
@@ -95,11 +130,56 @@ function Prof(): React.JSX.Element {
             _hover={{ boxShadow: isDark ? " " : "dark-lg" }}
           >
             <CardBody>
-              <Avatar src="/leticia.jpeg" w="180px" h="180px" ml="27px" />
-              <Text textAlign="center" fontSize="20px" mt="15px" mb="5px">
+              <Avatar src="/leticia7.jpeg" w="180px" h="180px" ml="27px" />
+              <Text textAlign="center" fontSize="20px" mt="5px" mb="5px">
                 Letícia Santiago
               </Text>
-              <Flex direction="row" justifyContent="center" mt="42px">
+              <List textAlign="start" mt="5px">
+                <ListItem fontSize="10px">
+                  <ListIcon
+                    as={FaRegAddressBook }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                  Criadora do Curso UnockingEnglish.
+                </ListItem>
+              </List>
+              <List  mt="0px">
+                <ListItem fontSize="10px">
+                  <ListIcon
+                    as={PiStudentFill}
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                 Advogada
+                </ListItem>
+              </List>
+              <List textAlign="start" mt="0px">
+                <ListItem fontSize="10px">
+                  <ListIcon
+                    as={RiSpeakFill }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                 Fluente em Inglês desde os 17 anos de idade.  
+                </ListItem>
+              </List>
+              <List textAlign="start" mt="0px">
+                <ListItem fontSize="10px">
+                  <ListIcon
+                    as={GrCertificate  }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                 Possui certificado de competência em Inglês pela Universidade de Michigan.  
+                </ListItem>
+              </List>
+              <List textAlign="start" mt="0px">
+                <ListItem fontSize="10px">
+                  <ListIcon
+                    as={GiNotebook }
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                 Dá aulas de inglês para crianças, adolescentes e adultos há mais de 6 anos. 
+                </ListItem>
+              </List>
+              <Flex direction="row" justifyContent="center" mt="7px">
 
                 <IconButton
                   
