@@ -11,6 +11,7 @@ import Skills from "@/components/Skills";
 
 import { Flex, Slider, Text, AspectRatio, Box } from "@chakra-ui/react";
 import Depoimentos from "@/components/Depoimentos";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Section />
       <Depoimentos/>
       <Prof />
+      <Pricing/>
       <Questions />
       <Footer />
     </Flex>

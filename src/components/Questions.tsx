@@ -16,7 +16,7 @@ function Questions() {
       <Flex
         w="100%"
         justifyContent="center"
-        mt={{ base: "70px", sm: "70px", md: "100px", lg: "150px" }}
+        mt={{ base: "20px", sm: "70px", md: "100px", lg: "150px" }}
       >
         <Text fontSize={{ base: "22px", sm: "40px", md: "50px", lg: "30px" }}>
           Perguntas frequentes.
