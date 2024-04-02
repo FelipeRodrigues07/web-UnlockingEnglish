@@ -14,6 +14,7 @@ import {
 } from "@chakra-ui/react";
 import Header from "@/components/Header";
 import Skills from "@/components/Skills";
+import { Slide } from "@/components/Slide";
 const Arrow = createIcon({
   displayName: "Arrow",
   viewBox: "0 0 72 24",
@@ -101,6 +102,7 @@ function Metodologias() {
           </Stack>
         </Stack>
       </Container>
+      <Slide/>
     </Flex>
   );
 }
