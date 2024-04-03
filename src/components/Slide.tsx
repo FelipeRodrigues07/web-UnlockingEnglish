@@ -48,8 +48,24 @@ const StyledSwiper = styled(Swiper)`
    }
 
    .swiper-slide-active {
-       transform: scale(1.3); /* Ajuste o valor de scale conforme necessário */
-   }
+    transform: scale(${() => {
+      if (typeof window !== "undefined") {
+        if (window.matchMedia("(max-width: 768px)").matches) {
+          // Se a tela for menor que 768px (dispositivos móveis)
+          return "1.1";
+        } else if (window.matchMedia("(min-width: 769px) and (max-width: 1024px)").matches) {
+          // Se a tela estiver entre 769px e 1024px (tablets)
+          return "1.2";
+        } else {
+          // Se a tela for maior que 1024px (notebooks e desktops)
+          return "1.3";
+        }
+      } else {
+        // Valor padrão para renderização do lado do servidor
+        return "1.0";
+      }
+    }});
+  }
    .swiper-pagination {
        text-align: center;
    }
@@ -133,7 +149,7 @@ export function Slide() {
 
 
     return (
-
+        
         <VStack
             justifyContent="center"
             id="slide-section"

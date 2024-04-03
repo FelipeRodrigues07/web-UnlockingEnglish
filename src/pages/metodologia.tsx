@@ -85,16 +85,17 @@ function Metodologias() {
                 color={isDark ? "gray.300" : "gray.800"}
                 w={71}
                 position={"absolute"}
-                right={-71}
-                top={"10px"}
+                right={-61}
+                top={"-5px"}
+                transform={"rotate(-30deg)"}
               />
               <Text
                 fontSize="12px"
                 fontFamily={"Caveat"}
                 position={"absolute"}
-                right={"-100px"}
-                top={"-5px"}
-                transform={"rotate(10deg)"}
+                right={"-60px"}
+                top={"-32px"}
+                transform={"rotate(3deg)"}
               >
                 Não perca tempo
               </Text>
