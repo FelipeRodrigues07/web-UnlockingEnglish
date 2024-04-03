@@ -1,4 +1,5 @@
 import React from "react";
+import { Playfair_Display} from "next/font/google"
 import {
   Avatar,
   Flex,
@@ -31,6 +32,10 @@ import { ChevronDownIcon } from "@chakra-ui/icons";
 import SidebarNav from "./Sidebar";
 import { useState } from "react";
 
+const defautfont = Playfair_Display({
+  subsets:["latin"]
+})
+
 function Header() {
   const router = useRouter();
   const { asPath } = useRouter();
@@ -55,6 +60,7 @@ function Header() {
   const isDark = colorMode === "dark";
 
   // const [aberto, setAberto] = useState(false);
+ 
 
   return (
     <Flex
@@ -86,10 +92,12 @@ function Header() {
         cursor="pointer"
       ></Avatar>
       <Text
-        ml="9px"
+        ml="3px"
         fontSize="22px"
         fontWeight="semibold"
         color={isDark ? "#ffffff" : "#050A30"}
+        className={defautfont.className}
+        
       >
         UnlockingEnglish
       </Text>
