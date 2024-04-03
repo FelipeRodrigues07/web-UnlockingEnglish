@@ -43,7 +43,7 @@ function Header() {
   const isMobile = useBreakpointValue({
     base: true,
     lg: false,
-    md: false,
+    md: true,
   });
 
   
@@ -84,7 +84,7 @@ function Header() {
       <Avatar
         color="#050A30"
         src="/logo2.jpeg"
-        ml={{ base: "3px", sm: "8px", md: "8", lg: "8", xl: "8px" }}
+        ml={{ base: "10px", sm: "8px", md: "8", lg: "8", xl: "8px" }}
         size="sm"
         onClick={() => {
           router.push("/");
@@ -106,7 +106,7 @@ function Header() {
         onClick={() => {
           router.push("/");
         }}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"
@@ -117,7 +117,7 @@ function Header() {
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
-          display={{ base: "none", md: "flex" }}
+          display={{ base: "none", lg: "flex" }}
         >
           Home
         </Text>
@@ -131,7 +131,7 @@ function Header() {
         px="4"
         py="2"
         borderRadius={5}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         borderBottom={
           asPath === "/metodologia"
             ? isDark
@@ -142,7 +142,7 @@ function Header() {
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
-          display={{ base: "none", md: "flex" }}
+          display={{ base: "none", lg: "flex" }}
         >
           Metodologia
         </Text>
@@ -154,7 +154,7 @@ function Header() {
         px="4"
         py="2"
         borderRadius={5}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         borderBottom={
           asPath === "/depoimentos"
             ? isDark
@@ -165,7 +165,7 @@ function Header() {
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
-          display={{ base: "none", md: "flex" }}
+          display={{ base: "none", lg: "flex" }}
         >
           Depoimentos
         </Text>
@@ -178,7 +178,7 @@ function Header() {
         px="4"
         py="2"
         borderRadius={5}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         borderBottom={
           asPath === "/projetos"
             ? isDark
@@ -189,7 +189,7 @@ function Header() {
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
-          display={{ base: "none", md: "flex" }}
+          display={{ base: "none", lg: "flex" }}
         >
           Contatos
         </Text>
@@ -202,7 +202,7 @@ function Header() {
         px="4"
         py="2"
         borderRadius={5}
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         borderBottom={
           asPath === "/entrar"
             ? isDark
@@ -213,7 +213,7 @@ function Header() {
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
-          display={{ base: "none", md: "flex" }}
+          display={{ base: "none", lg: "flex" }}
         >
           Blogs
         </Text>
@@ -249,7 +249,7 @@ function Header() {
         </DrawerContent>
       </Drawer>
       <IconButton
-        display={{ base: "none", md: "flex" }}
+        display={{ base: "none", lg: "flex" }}
         ml={{ base: "25px", sm: "70px", md: "3", lg: "8" }}
         mr={5}
         icon={isDark ? <BsSun /> : <FaMoon />}

@@ -36,7 +36,7 @@ function Publi() {
     const isDark = colorMode === "dark";
 
     return(
-    <Container maxW={"3xl"} mt="78px">
+    <Container maxW={"3xl"} mt={{ base: "0px", sm: "0px", md: "0px", lg: "0px" }}>
     <Stack
       as={Box}
       textAlign={"center"}
