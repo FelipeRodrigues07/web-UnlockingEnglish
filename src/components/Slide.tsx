@@ -155,7 +155,7 @@ export function Slide() {
             id="slide-section"
             opacity={isVisible ? 1 : 0}
             transition="opacity 0.5s ease-in-out 0.2s"
-            marginTop={{ base: 150, sm: 200, md: 200, lg: 200, xl: 300 }}
+            marginTop={{ base: 50, sm: 200, md: 200, lg: 200, xl: 70 }}
             padding={{ base: "0 0px", sm: "0 20px", md: "0 30px", lg: "0 40px", xl: "0 50px" }} // Adiciona padding nas laterais
 
         >
