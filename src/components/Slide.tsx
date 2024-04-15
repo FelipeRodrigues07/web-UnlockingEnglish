@@ -219,7 +219,7 @@ export function Slide() {
                         backgroundColor={isDark ? "#010409" : "#ffffff"}
                         _hover={{ boxShadow: isDark ? " " : "" }}
                     >
-                        <Image src="/depoimento4.png" w="100%" h="100%" alt="descrição da imagem" ></Image>
+                        <Image src="/feedback3.png" w="100%" h="100%" alt="descrição da imagem" ></Image>
 
                     </Card>
                 </SwiperSlide>
