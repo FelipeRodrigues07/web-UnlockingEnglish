@@ -57,7 +57,7 @@ function SidebarNav() {
         </ChakraLink>
         <ChakraLink
           onClick={() => {
-            router.push("/metodologia");
+            router.push("/");
           }}
           _hover={{ bg: "gray.100" }} // underline é para efeito
           px="4"
