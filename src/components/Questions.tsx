@@ -32,13 +32,13 @@ function Questions() {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                	Preciso saber alguma coisa de Inglês para aproveitar o curso?
+                  Para que serve o curso?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            No UnlockingEnglish, serão ensinadas todas as regras gramaticais e os vocabulários mais importantes e utilizados, assim, o aluno será exposto ao conteúdo mais básico até o mais avançado. Por isso, não é necessário ter conhecimento do idioma para entender o conteúdo das aulas. 
+              O curso serve para que, mesmo pessoas que sentem muita dificuldade com a língua inglesa, possam estudar e se tornarem fluentes no idioma.
             </AccordionPanel>
           </AccordionItem>
 
@@ -46,14 +46,56 @@ function Questions() {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                Quais os dias das aulas?
+                  Para quem é o curso?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            O UnlockingEnglish é um curso com duração de 12 meses, dividido entre aulas gravadas, ao vivo e suporte para correção das atividades e atendimento de dúvidas durante os 12 meses de estudo. 
-Toda semana, serão liberadas duas aulas gravadas. Com as aulas gravada, será liberado um material de apoio para que o aluno não se perca durante a explicação e, ao final, haverá um exercício sobre o conteúdo explicado na aula para que o aluno coloque em prática o que estudou. Toda terça-feira, às 20h, é iniciada uma live, nesse momento, será reforçado o conteúdo das aulas gravadas e o aluno poderá interagir com o professor, utilizando o chat para tirar dúvidas
+              Para toda e qualquer pessoa, acima de 12 anos, que deseja ter conhecimento de Inglês para se comunicar; garantir vagas em bons empregos; viajar ou morar em países que possuem o Inglês como idioma oficial ou segunda língua; perder a dificuldade para entender documentos, filmes, músicas, programas, materiais ou manuais em Inglês; fazer do Inglês uma carreira e se tornar um professor da língua; ter à disposição o conhecimento da língua global de comunicação.
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  Como funciona o curso?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              Após adquirir o curso, o aluno receberá login e senha para acessar as aulas e materiais na Plataforma. Na plataforma estarão as aulas gravadas, materiais e exercícios que o aluno irá consumir durante 12 meses e garantir a fluência. Durante o estudo da língua, o aluno também participará de aulas de conversação para praticar o uso do idioma com um professor que o ajudará em qualquer erro ou dificuldade.
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  Preciso saber alguma coisa de Inglês para aproveitar o curso?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              No UnlockingEnglish, serão ensinadas todas as regras gramaticais e os vocabulários mais importantes e utilizados, assim, o aluno será exposto ao conteúdo mais básico até o mais avançado. Por isso, não é necessário ter conhecimento do idioma para entender o conteúdo das aulas.
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton>
+                <Box as="span" flex="1" textAlign="left">
+                  Quais os dias das aulas?
+                </Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              O curso é dividido em:
+              <br />
+              - Aulas gravadas, que você poderá assistir a qualquer hora, dia e lugar, desde que tenha um dispositivo com internet.
+              <br />
+              - Aulas de conversação ao vivo e particular, que serão todas marcadas com o aluno, que poderá escolher entre os dias e horários disponíveis.
 
             </AccordionPanel>
           </AccordionItem>
@@ -67,40 +109,40 @@ Toda semana, serão liberadas duas aulas gravadas. Com as aulas gravada, será l
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            As aulas ao vivo ficarão gravadas e serão disponibilizadas dentro da plataforma para que você possa assistir ou reassistir. 
+            As aulas ao vivo ficarão gravadas e serão disponibilizadas dentro da plataforma para que você possa assistir ou reassistir.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-              	Por quanto tempo terei acesso ao curso?
+                Por quanto tempo terei acesso ao curso?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            O curso tem duração de 12 meses, após esse período, o acesso às aulas será expirado, porém o aluno continuará com todos os materiais disponibilizados. 
+            O curso tem duração de 12 meses, após esse período, o acesso às aulas será expirado, porém o aluno continuará com todos os materiais disponibilizados.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                	Tem certificado?
+                Tem certificado?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            Sim, para retirar certificado, é preciso assistir às aulas gravadas disponibilizadas e realizar as atividades. 
+            Sim, para retirar certificado, é preciso assistir às aulas gravadas disponibilizadas e realizar as atividades.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                	Em quanto tempo fico fluente?
+                Em quanto tempo fico fluente?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
@@ -113,13 +155,13 @@ Toda semana, serão liberadas duas aulas gravadas. Com as aulas gravada, será l
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                	Como posso tirar minhas dúvidas?
+                Como posso tirar minhas dúvidas?
                 </Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-            Ao adquirir o curso, você terá acesso ao email e WhatsApp dos professores, assim, se surgirem dúvidas, estaremos à disposição para saná-las. 
+            Com a aquisição do curso, o aluno adquire também acesso ao contato e e-mail dos professores, que estarão disponíveis durante 12 meses a todos os alunos do UnlockingEnglish.
             </AccordionPanel>
           </AccordionItem>
         </Accordion>

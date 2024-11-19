@@ -75,7 +75,7 @@ function Publi() {
           color="white"
           onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
         >
-          Começe agora
+          Comece agora
         </Button>
 
         <Box>
