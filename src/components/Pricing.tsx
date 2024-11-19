@@ -37,7 +37,7 @@ function Pricing() {
         >
           <Card
             w={{ base: "270px", sm: "300px", md: "550px", lg: "800px" }}
-            h={{ base: "470px", sm: "300px", md: "250px", lg: "490px" }}
+            h={{ base: "530px", sm: "300px", md: "250px", lg: "490px" }}
             ml="35px"
             mr="35px"
             boxShadow="2xl"
@@ -77,7 +77,7 @@ function Pricing() {
               </Text>
               </Flex>
               </Flex>
-             <Flex w="100%" backgroundColor={isDark ? "gray.900" : "gray.50"} h="240px"  flexDirection="column" >
+             <Flex w="100%" backgroundColor={isDark ? "gray.900" : "gray.50"} h="340px"  flexDirection="column" >
              <Text fontSize="13px" mt="10px" mb="5px" ml="12px" fontWeight="bold">
              Ao se tornar aluno do UnlockingEnglish, você receberá:
               </Text>
@@ -87,28 +87,35 @@ function Pricing() {
                     as={FaCheckCircle}
                     color={isDark ? "#ffffff" : "#050A30"}
                   />
-                Curso UnlockingEnglish;
+                Curso UnlockingEnglish
                 </ListItem>
                 <ListItem fontSize="13px"  ml="12px">
                   <ListIcon
                     as={FaCheckCircle}
                     color={isDark ? "#ffffff" : "#050A30"}
                   />
-            	Materiais digitais de apoio;
+            	Materiais digitais de Inglês
                 </ListItem>
                 <ListItem fontSize="13px"  ml="12px">
                   <ListIcon
                     as={FaCheckCircle}
                     color={isDark ? "#ffffff" : "#050A30"}
                   />
-                	Exercícios;
+            	Aulas com conteúdo para estudo de gramática e aulas divertidas com filmes, música e séries para estudo de vocabulário 
                 </ListItem>
                 <ListItem fontSize="13px"  ml="12px">
                   <ListIcon
                     as={FaCheckCircle}
                     color={isDark ? "#ffffff" : "#050A30"}
                   />
-                	Correção exclusiva dos exercícios, com análise de erros e dificuldades; 
+                	Exercícios
+                </ListItem>
+                <ListItem fontSize="13px"  ml="12px">
+                  <ListIcon
+                    as={FaCheckCircle}
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                	Correção dos exercícios com correção exclusiva e análise de dificuldades
                 </ListItem>
                 <ListItem fontSize="13px"  ml="12px">
                   <ListIcon
@@ -122,7 +129,14 @@ function Pricing() {
                     as={FaCheckCircle}
                     color={isDark ? "#ffffff" : "#050A30"}
                   />
-                	Suporte dos professores para atendimento de dúvidas e ajuda com traduções durante 12 meses 
+                	12 aulas particulares de conversação
+                </ListItem>
+                <ListItem fontSize="13px"  ml="12px">
+                  <ListIcon
+                    as={FaCheckCircle}
+                    color={isDark ? "#ffffff" : "#050A30"}
+                  />
+                	Suporte de professores de Inglês <br/> durante 12 meses  
                 </ListItem>
               </List>
               </Flex>
@@ -138,6 +152,7 @@ function Pricing() {
               _hover={{ bg: "gray.500" }}
               onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
               mt="6px"
+              mb="16px"
             
             >
               comece agora
