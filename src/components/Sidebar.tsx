@@ -42,7 +42,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
         behavior: "smooth"
       })
     ).finally(() => {
-      onCloseSidebar() as void; 
+      onCloseSidebar(); 
     });
   }
 
@@ -53,7 +53,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
         behavior: "smooth"
       })
     ).finally(() => {
-      onCloseSidebar() as void; 
+      onCloseSidebar(); 
     });
   }
 
