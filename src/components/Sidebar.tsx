@@ -13,6 +13,8 @@ import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsYoutube } from "react-icons/bs";
 
+
+
 function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
   const router = useRouter();
 
@@ -40,7 +42,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
         behavior: "smooth"
       })
     ).finally(() => {
-      onCloseSidebar(); 
+      onCloseSidebar() as void; 
     });
   }
 
@@ -51,7 +53,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
         behavior: "smooth"
       })
     ).finally(() => {
-      onCloseSidebar(); 
+      onCloseSidebar() as void; 
     });
   }
 

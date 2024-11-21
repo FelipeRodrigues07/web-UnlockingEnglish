@@ -1,5 +1,5 @@
 import React from "react";
-import { Playfair_Display} from "next/font/google"
+import { Playfair_Display } from "next/font/google"
 import {
   Avatar,
   Flex,
@@ -33,7 +33,7 @@ import SidebarNav from "./Sidebar";
 import { useState } from "react";
 
 const defautfont = Playfair_Display({
-  subsets:["latin"]
+  subsets: ["latin"]
 })
 
 function Header() {
@@ -46,11 +46,28 @@ function Header() {
     md: true,
   });
 
-  
+
   const irParaHomeEDescer = () => {
-    router.push('/').then(() => 
+    router.push('/').then(() =>
       window.scrollTo({
         top: 700,
+        behavior: "smooth"
+      })
+    )
+  }
+
+  const feedback = useBreakpointValue({
+    sm: 3900,
+    md: 4700,
+    lg: 3900,
+    xl: 3900
+  });
+
+
+  const feedbackRouter = () => {
+    router.push('/').then(() =>
+      window.scrollTo({
+        top: feedback,
         behavior: "smooth"
       })
     )
@@ -60,7 +77,7 @@ function Header() {
   const isDark = colorMode === "dark";
 
   // const [aberto, setAberto] = useState(false);
- 
+
 
   return (
     <Flex
@@ -97,7 +114,7 @@ function Header() {
         fontWeight="semibold"
         color={isDark ? "#ffffff" : "#050A30"}
         className={defautfont.className}
-        
+
       >
         UnlockingEnglish
       </Text>
@@ -111,9 +128,9 @@ function Header() {
         px="4"
         py="2"
         borderRadius={5}
-        borderBottom={
-          asPath === "/" ? (isDark ? "1px solid #fff" : "1px solid #000") : ""
-        }
+      // borderBottom={
+      //   asPath === "/" ? (isDark ? "1px solid #fff" : "1px solid #000") : ""
+      // }
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
@@ -123,7 +140,7 @@ function Header() {
         </Text>
       </ChakraLink>
       <ChakraLink
-          
+
         onClick={() => {
           router.push("/metodologia");
         }}
@@ -144,12 +161,12 @@ function Header() {
           color={isDark ? "#ffffff" : "blue.700"}
           display={{ base: "none", lg: "flex" }}
         >
-          Metodologia
+          Feedbacks
         </Text>
       </ChakraLink>
 
       <ChakraLink
-         onClick={irParaHomeEDescer}
+        onClick={irParaHomeEDescer}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"
@@ -167,7 +184,7 @@ function Header() {
           color={isDark ? "#ffffff" : "blue.700"}
           display={{ base: "none", lg: "flex" }}
         >
-          Depoimentos
+          Sobre o curso
         </Text>
       </ChakraLink>
       <ChakraLink
@@ -191,7 +208,7 @@ function Header() {
           color={isDark ? "#ffffff" : "blue.700"}
           display={{ base: "none", lg: "flex" }}
         >
-          Contatos
+          Perguntas frequentes
         </Text>
       </ChakraLink>
       <ChakraLink
@@ -215,7 +232,7 @@ function Header() {
           color={isDark ? "#ffffff" : "blue.700"}
           display={{ base: "none", lg: "flex" }}
         >
-          Blogs
+          Contatos
         </Text>
       </ChakraLink>
 
@@ -244,7 +261,7 @@ function Header() {
             ></IconButton>
           </DrawerHeader>
           <DrawerBody>
-            <SidebarNav  onCloseSidebar={onClose}/>
+            <SidebarNav onCloseSidebar={onClose} />
           </DrawerBody>
         </DrawerContent>
       </Drawer>
