@@ -46,21 +46,11 @@ function Header() {
     md: true,
   });
 
-
-  const irParaHomeEDescer = () => {
-    router.push('/').then(() =>
-      window.scrollTo({
-        top: 700,
-        behavior: "smooth"
-      })
-    )
-  }
-
   const feedback = useBreakpointValue({
-    sm: 3900,
-    md: 4700,
-    lg: 3900,
-    xl: 3900
+    sm: 550,
+    md: 550,
+    lg: 550,
+    xl: 550
   });
 
 
@@ -68,6 +58,40 @@ function Header() {
     router.push('/').then(() =>
       window.scrollTo({
         top: feedback,
+        behavior: "smooth"
+      })
+    )
+  }
+
+  const sobreCurso = useBreakpointValue({
+    sm: 2500,
+    md: 2500,
+    lg: 2500,
+    xl: 2500
+  });
+
+
+  const sobreCursoRouter = () => {
+    router.push('/').then(() =>
+      window.scrollTo({
+        top: sobreCurso,
+        behavior: "smooth"
+      })
+    )
+  }
+
+  const depoimentos = useBreakpointValue({
+    sm: 3300,
+    md: 3300,
+    lg: 3300,
+    xl: 3300
+  });
+
+
+  const depoimentosRouter = () => {
+    router.push('/').then(() =>
+      window.scrollTo({
+        top: depoimentos,
         behavior: "smooth"
       })
     )
@@ -141,9 +165,7 @@ function Header() {
       </ChakraLink>
       <ChakraLink
 
-        onClick={() => {
-          router.push("/metodologia");
-        }}
+        onClick={ feedbackRouter}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"
@@ -166,19 +188,19 @@ function Header() {
       </ChakraLink>
 
       <ChakraLink
-        onClick={irParaHomeEDescer}
+        onClick={sobreCursoRouter}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"
         borderRadius={5}
         display={{ base: "none", lg: "flex" }}
-        borderBottom={
-          asPath === "/depoimentos"
-            ? isDark
-              ? "1px solid #fff"
-              : "1px solid #000"
-            : ""
-        }
+        // borderBottom={
+        //   asPath === "/depoimentos"
+        //     ? isDark
+        //       ? "1px solid #fff"
+        //       : "1px solid #000"
+        //     : ""
+        // }
       >
         <Text
           color={isDark ? "#ffffff" : "blue.700"}
@@ -188,9 +210,7 @@ function Header() {
         </Text>
       </ChakraLink>
       <ChakraLink
-        onClick={() => {
-          router.push("/");
-        }}
+        onClick={depoimentosRouter}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"

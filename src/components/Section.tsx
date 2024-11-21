@@ -117,6 +117,7 @@ export default function Section() {
               // autoPlay
               // loop
               controls
+              controlsList="nodownload"
               style={{
                 width: "100%",
                 height: "100%",
@@ -129,7 +130,7 @@ export default function Section() {
                 src="unlocking_english.mp4"
                 type='video/mp4'
               />
-              Seu navegador não suporta a tag de vídeo.
+               Seu navegador não suporta a tag de vídeo.
             </video>
           </Box>
         </Flex>
