@@ -244,7 +244,7 @@ function Header() {
             ></IconButton>
           </DrawerHeader>
           <DrawerBody>
-            <SidebarNav />
+            <SidebarNav  onCloseSidebar={onClose}/>
           </DrawerBody>
         </DrawerContent>
       </Drawer>

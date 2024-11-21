@@ -13,7 +13,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { BsYoutube } from "react-icons/bs";
 
-function SidebarNav() {
+function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
   const router = useRouter();
 
   const { asPath } = useRouter();
@@ -22,14 +22,49 @@ function SidebarNav() {
   const isDark = colorMode === "dark";
 
 
+  // const home = () => {
+  //   router.push('/').then(() => 
+  //     window.scrollTo({
+  //       top: 700,
+  //       behavior: "smooth"
+  //     })
+  //   ).finally(() => {
+  //     onCloseSidebar(); 
+  //   });
+  // }
 
   const irParaHomeEDescer = () => {
     router.push('/').then(() => 
       window.scrollTo({
-        top: 700,
+        top: 500,
         behavior: "smooth"
       })
-    )
+    ).finally(() => {
+      onCloseSidebar(); 
+    });
+  }
+
+  const sobreoCurso = () => {
+    router.push('/').then(() => 
+      window.scrollTo({
+        top: 2600,
+        behavior: "smooth"
+      })
+    ).finally(() => {
+      onCloseSidebar(); 
+    });
+  }
+
+
+  const perguntasFrequentes = () => {
+    router.push('/').then(() => 
+      window.scrollTo({
+        top: 3300,
+        behavior: "smooth"
+      })
+    ).finally(() => {
+      onCloseSidebar(); 
+    });
   }
 
   return (
@@ -41,24 +76,23 @@ function SidebarNav() {
         <Stack></Stack>
         <ChakraLink
           onClick={() => {
-            router.push("/");
+            router.push("/"),
+            onCloseSidebar();
           }}
           _hover={{ bg: "gray.100" }} // underline é para efeito
           px="4"
           py="2"
           borderRadius={5}
-          boxShadow={
-            asPath === "/" ? (isDark ? " 0 1px 0 #fff" : "0 1px 0 #000000") : ""
-          }
+          // boxShadow={
+          //   asPath === "/" ? (isDark ? " 0 1px 0 #fff" : "0 1px 0 #000000") : ""
+          // }
         >
           <Text fontSize="xl" fontWeight="medium">
             Home
           </Text>
         </ChakraLink>
         <ChakraLink
-          onClick={() => {
-            router.push("/");
-          }}
+          onClick={sobreoCurso}
           _hover={{ bg: "gray.100" }} // underline é para efeito
           px="4"
           py="2"
@@ -72,7 +106,7 @@ function SidebarNav() {
           }
         >
           <Text fontSize="xl" fontWeight="medium">
-            Metodologia
+            Sobre o curso
           </Text>
         </ChakraLink>
         <ChakraLink
@@ -90,7 +124,25 @@ function SidebarNav() {
           }
         >
           <Text fontSize="xl" fontWeight="medium">
-            Depoimentos
+          Feedbacks
+          </Text>
+        </ChakraLink>
+        <ChakraLink
+          onClick={perguntasFrequentes}
+          _hover={{ bg: "gray.100" }} // underline é para efeito
+          px="4"
+          py="2"
+          borderRadius={5}
+          boxShadow={
+            asPath === "/depoimentos"
+              ? isDark
+                ? " 0 1px 0 #fff"
+                : "0 1px 0 #000000"
+              : ""
+          }
+        >
+          <Text fontSize="xl" fontWeight="medium">
+            Perguntas frequentes
           </Text>
         </ChakraLink>
         <ChakraLink
@@ -111,19 +163,6 @@ function SidebarNav() {
         >
           <Text fontSize="xl" fontWeight="medium">
             Contatos
-          </Text>
-        </ChakraLink>
-        <ChakraLink
-          onClick={() => {
-            router.push("/");
-          }}
-          _hover={{ bg: "gray.100" }} // underline é para efeito
-          px="4"
-          py="2"
-          borderRadius={5}
-        >
-          <Text fontSize="xl" fontWeight="medium">
-            Blogs
           </Text>
         </ChakraLink>
       </Stack>

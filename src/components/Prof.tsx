@@ -185,9 +185,9 @@ function Prof(): React.JSX.Element {
                   
                   icon={<BsInstagram />}
                   isRound={true}
-                  aria-label="Github"
+                  aria-label="Instagram"
                   onClick={() =>
-                    window.open("https://www.instagram.com/joaoneto.b10/")
+                    window.open("https://www.instagram.com/joaosantiagoneto/")
                   }
                 ></IconButton>
                 <IconButton
