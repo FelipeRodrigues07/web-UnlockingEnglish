@@ -147,7 +147,7 @@ function Prof(): React.JSX.Element {
             _hover={{ boxShadow: isDark ? " " : "dark-lg" }}
           >
             <CardBody>
-              <Avatar src="/neto2.jpeg" w="180px" h="180px" ml="27px" />
+              <Avatar src="/joao_neto.jpg" w="180px" h="180px" ml="27px" />
               <Text textAlign="center" fontSize="20px" mt="15px" mb="5px">
                 João Neto
               </Text>
