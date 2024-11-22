@@ -50,7 +50,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
     router.push('/').then(() => 
       window.scrollTo({
         top: 2600,
-        behavior: "smooth"
+        behavior: "auto"
       })
     ).finally(() => {
       onCloseSidebar(); 
@@ -62,7 +62,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
     router.push('/').then(() => 
       window.scrollTo({
         top: 3300,
-        behavior: "smooth"
+        behavior: "auto"
       })
     ).finally(() => {
       onCloseSidebar(); 
@@ -73,7 +73,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
     router.push('/').then(() => 
       window.scrollTo({
         top: 3900,
-        behavior: "smooth"
+        behavior: "auto"
       })
     ).finally(() => {
       onCloseSidebar(); 
