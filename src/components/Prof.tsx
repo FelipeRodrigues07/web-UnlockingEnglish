@@ -50,7 +50,7 @@ function Prof(): React.JSX.Element {
             w="270px"
             h="400px"
             boxShadow="2xl"
-            backgroundColor={isDark ? "#161B22" : "#ffffff"}
+            backgroundColor={isDark ? "#151B23" : "#ffffff"}
             _hover={{ boxShadow: isDark ? " " : "dark-lg" }}
           >
             <CardBody>
@@ -143,7 +143,7 @@ function Prof(): React.JSX.Element {
             w="270px"
             h="400px"
             boxShadow="2xl"
-            backgroundColor={isDark ? "#161B22" : "#ffffff"}
+            backgroundColor={isDark ? "#151B23" : "#ffffff"}
             _hover={{ boxShadow: isDark ? " " : "dark-lg" }}
           >
             <CardBody>

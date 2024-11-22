@@ -31,6 +31,7 @@ import {
             h={{ base: "340px", sm: "300px", md: "270px", lg: "270px" }}
             ml="35px"
             mr="35px"
+            backgroundColor={isDark ? "#151B23" : "#ffffff"}
             // boxShadow="2xl"
           >
             <CardBody>

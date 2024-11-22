@@ -42,7 +42,7 @@ function Pricing() {
             mr="35px"
             boxShadow="2xl"
             borderRadius="3xl"
-            backgroundColor={isDark ? "#161B22" : "#ffffff"}
+            backgroundColor={isDark ? "#151B23" : "#ffffff"}
             
             
           >
@@ -77,7 +77,7 @@ function Pricing() {
               </Text>
               </Flex>
               </Flex>
-             <Flex w="100%" backgroundColor={isDark ? "gray.900" : "gray.50"} h="340px"  flexDirection="column" >
+             <Flex w="100%" backgroundColor={isDark ? "#0D1117" : "gray.50"} h="340px"  flexDirection="column" >
              <Text fontSize="13px" mt="10px" mb="5px" ml="12px" fontWeight="bold">
              Ao se tornar aluno do UnlockingEnglish, você receberá:
               </Text>
