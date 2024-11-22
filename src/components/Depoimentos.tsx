@@ -27,7 +27,7 @@ function Depoimentos(): React.JSX.Element {
         justifyContent="center"
         mt={{ base: "70px", sm: "70px", md: "100px", lg: "150px" }}
       >
-        <Text fontSize={{ base: "22px", sm: "40px", md: "50px", lg: "30px" }}>
+        <Text fontSize={{ base: "22px", sm: "30px", md: "30px", lg: "30px" }}>
           Feedbacks
         </Text>
       </Flex>

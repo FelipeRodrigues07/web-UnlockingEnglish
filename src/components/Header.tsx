@@ -97,6 +97,24 @@ function Header() {
     )
   }
 
+
+  const contact = useBreakpointValue({
+    sm: 3900,
+    md: 3900,
+    lg: 3900,
+    xl: 3900
+  });
+
+
+  const contactRouter = () => {
+    router.push('/').then(() =>
+      window.scrollTo({
+        top: contact,
+        behavior: "smooth"
+      })
+    )
+  }
+
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === "dark";
 
@@ -232,9 +250,7 @@ function Header() {
         </Text>
       </ChakraLink>
       <ChakraLink
-        onClick={() => {
-          router.push("/");
-        }}
+        onClick={contactRouter}
         _hover={{ bg: isDark ? "gray.800" : "gray.100" }}
         px="4"
         py="2"

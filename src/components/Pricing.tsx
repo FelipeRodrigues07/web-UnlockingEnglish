@@ -37,7 +37,7 @@ function Pricing() {
         >
           <Card
             w={{ base: "270px", sm: "300px", md: "550px", lg: "800px" }}
-            h={{ base: "530px", sm: "300px", md: "250px", lg: "490px" }}
+            h={{ base: "530px", sm: "490px", md: "490px", lg: "490px" }}
             ml="35px"
             mr="35px"
             boxShadow="2xl"

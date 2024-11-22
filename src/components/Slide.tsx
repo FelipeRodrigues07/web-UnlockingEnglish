@@ -159,7 +159,7 @@ export function Slide() {
             padding={{ base: "0 0px", sm: "0 20px", md: "0 30px", lg: "0 40px", xl: "0 50px" }} // Adiciona padding nas laterais
 
         >
-            <Text fontSize={{ base: "22px", sm: "40px", md: "40px", lg: "30px" }} mb={{ base: "-50px", sm: "0px", md: "0px", lg: "0px", xl: "0px"}}>
+            <Text fontSize={{ base: "22px", sm: "30px", md: "30px", lg: "30px" }} mb={{ base: "-50px", sm: "0px", md: "0px", lg: "0px", xl: "0px"}}>
                 Feedbacks
             </Text>
             

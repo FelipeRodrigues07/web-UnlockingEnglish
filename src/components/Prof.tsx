@@ -34,7 +34,7 @@ function Prof(): React.JSX.Element {
         justifyContent="center"
         mt={{ base: "40px", sm: "50px", md: "50px", lg: "50px" }}
       >
-        <Text fontSize={{ base: "22px", sm: "40px", md: "50px", lg: "30px" }}>
+        <Text fontSize={{ base: "22px", sm: "30px", md: "30px", lg: "30px" }}>
           Professores
         </Text>
       </Flex>

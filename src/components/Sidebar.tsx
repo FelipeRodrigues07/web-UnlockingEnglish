@@ -69,6 +69,17 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
     });
   }
 
+  const contact = () => {
+    router.push('/').then(() => 
+      window.scrollTo({
+        top: 3900,
+        behavior: "smooth"
+      })
+    ).finally(() => {
+      onCloseSidebar(); 
+    });
+  }
+
   return (
     <Stack spacing="6">
       <Stack>
@@ -148,9 +159,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
           </Text>
         </ChakraLink>
         <ChakraLink
-          onClick={() => {
-            router.push("/");
-          }}
+          onClick={contact}
           _hover={{ bg: "gray.100" }} // underline é para efeito
           px="4"
           py="2"
