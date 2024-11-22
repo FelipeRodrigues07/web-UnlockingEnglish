@@ -28,7 +28,7 @@ import {
         >
           <Card
             w="880px"
-            h={{ base: "300px", sm: "300px", md: "270px", lg: "270px" }}
+            h={{ base: "340px", sm: "300px", md: "270px", lg: "270px" }}
             ml="35px"
             mr="35px"
             // boxShadow="2xl"
@@ -57,7 +57,7 @@ import {
                 color="white"
                 onClick={() =>
                   window.open(
-                    "https://api.whatsapp.com/send?phone=5564999094004&text=Ol%C3%A1%20Felipe,%20tudo%20bem?"
+                    "https://api.whatsapp.com/send?phone=5564996767061"
                   )
                 }
                 fontSize="13px"
