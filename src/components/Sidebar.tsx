@@ -186,15 +186,6 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
             ></IconButton>
             <IconButton
               ml={2}
-              icon={<BsYoutube />}
-              isRound={true}
-              aria-label="Github"
-              onClick={() =>
-                window.open("https://github.com/FelipeRodrigues07")
-              }
-            ></IconButton>
-            <IconButton
-              ml={2}
               icon={<AiOutlineMail />}
               isRound={true}
               aria-label="Email"

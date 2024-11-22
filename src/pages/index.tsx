@@ -14,6 +14,7 @@ import Depoimentos from "@/components/Depoimentos";
 import Pricing from "@/components/Pricing";
 import { Slide } from "@/components/Slide";
 import Publi from "@/components/Publi";
+import Social from "@/components/Social";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <Prof />
       <Pricing/>
       <Questions />
+      <Social/>
       <Footer />
     </Flex>
   );
