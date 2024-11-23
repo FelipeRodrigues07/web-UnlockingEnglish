@@ -200,7 +200,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
               aria-label="Email"
               onClick={() =>
                 window.open(
-                  "mailto:feliperodriguesrs07@outlook.com?subject=&body=Ol%C3%A1%2C%20tudo%20bem%3F"
+                  "mailto:joaobatistasantiagonetoo@gmail.com"
                 )
               }
             ></IconButton>
@@ -211,7 +211,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
               aria-label="Whatsapp"
               onClick={() =>
                 window.open(
-                  "https://api.whatsapp.com/send?phone=5564999094004&text=Ol%C3%A1%20Felipe,%20tudo%20bem?"
+                  "https://api.whatsapp.com/send?phone=5564996767061"
                 )
               }
             ></IconButton>

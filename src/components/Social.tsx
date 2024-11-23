@@ -88,7 +88,7 @@ import {
                   isRound={true}
                   onClick={() =>
                     window.open(
-                      "mailto:feliperodriguesrs07@outlook.com?subject=&body=Ol%C3%A1%2C%20tudo%20bem%3F"
+                      "mailto:joaobatistasantiagonetoo@gmail.com"
                     )
                   }
                 ></IconButton>
