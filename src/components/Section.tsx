@@ -70,10 +70,11 @@ export default function Section() {
               rounded={"full"}
               size={"lg"}
               fontWeight={"normal"}
+              fontSize={'22px'}
               px={6}
               color="white"
               colorScheme={"red"}
-              bg={"#050A30"}
+              bg={"#050A30"} //#51C33C
               _hover={{ bg: "gray.500" }}
               onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
             >
