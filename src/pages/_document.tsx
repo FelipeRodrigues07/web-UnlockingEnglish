@@ -9,6 +9,10 @@ export default function Document() {
           property="og:title"
           content="UnlockingEnglish - Curso de Inglês"
         />
+        <meta
+          property="og:image"
+          content="/logo2.jpeg" 
+        />
       </Head>
       <body>
         <Main />
