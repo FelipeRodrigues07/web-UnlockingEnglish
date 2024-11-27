@@ -58,7 +58,7 @@ export default function Section() {
               aprender inglês?
             </Text>
           </Heading>
-          <Text color={isDark ? "#ffffff" : "gray.500"}>
+          <Text color={isDark ? "#ffffff" : "gray.500"} >
           O UnlockingEnglish é um curso completo que vai te ensinar a ouvir, escrever e falar Inglês fluentemente. 
           Destrave o idioma que te leva a qualquer lugar do mundo e melhora suas chances no mercado de trabalho. 
           </Text>
