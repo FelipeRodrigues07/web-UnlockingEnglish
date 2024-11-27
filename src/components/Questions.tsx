@@ -103,19 +103,6 @@ function Questions() {
             <h2>
               <AccordionButton>
                 <Box as="span" flex="1" textAlign="left">
-                Se eu não conseguir assistir ao vivo, como posso acessar às aulas de terça-feira?
-                </Box>
-                <AccordionIcon />
-              </AccordionButton>
-            </h2>
-            <AccordionPanel pb={4}>
-            As aulas ao vivo ficarão gravadas e serão disponibilizadas dentro da plataforma para que você possa assistir ou reassistir.
-            </AccordionPanel>
-          </AccordionItem>
-          <AccordionItem>
-            <h2>
-              <AccordionButton>
-                <Box as="span" flex="1" textAlign="left">
                 Por quanto tempo terei acesso ao curso?
                 </Box>
                 <AccordionIcon />
@@ -136,19 +123,6 @@ function Questions() {
             </h2>
             <AccordionPanel pb={4}>
             Sim, para retirar certificado, é preciso assistir às aulas gravadas disponibilizadas e realizar as atividades.
-            </AccordionPanel>
-          </AccordionItem>
-          <AccordionItem>
-            <h2>
-              <AccordionButton>
-                <Box as="span" flex="1" textAlign="left">
-                Em quanto tempo fico fluente?
-                </Box>
-                <AccordionIcon />
-              </AccordionButton>
-            </h2>
-            <AccordionPanel pb={4}>
-            Isso depende do nível de esforço e dedicação, bem como do tempo que o aluno tem disponível para estudar. Quanto mais tempo dedicado ao estudo dos conteúdos ensinados, mais rápido você garante a fluência.
             </AccordionPanel>
           </AccordionItem>
           <AccordionItem>
