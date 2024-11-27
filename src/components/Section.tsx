@@ -85,7 +85,7 @@ export default function Section() {
               px={6}
               color="white"
               colorScheme={"red"}
-              bg={{ base: "#050A30", sm: "#050A30", lg: "#050A30" }} //#51C33C
+              bg={{ base: "#51C33C", sm: "#050A30", lg: "#050A30" }} //#51C33C
               _hover={{ bg: "gray.500" }}
               onClick={() => window.open("https://pay.hotmart.com/V82696580S?off=frua16zd&checkoutMode=10")}
             >
