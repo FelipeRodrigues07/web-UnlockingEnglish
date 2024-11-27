@@ -38,7 +38,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
   const irParaHomeEDescer = () => {
     router.push('/').then(() => 
       window.scrollTo({
-        top: 500,
+        top: 600,
         behavior: "smooth"
       })
     ).finally(() => {
@@ -49,7 +49,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
   const sobreoCurso = () => {
     router.push('/').then(() => 
       window.scrollTo({
-        top: 2600,
+        top: 2650,
         behavior: "auto"
       })
     ).finally(() => {
@@ -61,7 +61,7 @@ function SidebarNav({ onCloseSidebar }: { onCloseSidebar: () => void }) {
   const perguntasFrequentes = () => {
     router.push('/').then(() => 
       window.scrollTo({
-        top: 3300,
+        top: 3330,
         behavior: "auto"
       })
     ).finally(() => {
