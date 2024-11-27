@@ -67,7 +67,7 @@ export default function Section() {
             <Text
               fontSize="15px"
               fontWeight="bold"
-              color="black"
+              color={isDark ? "#ffffff" : "black"}
             >
               Mega promoção de Black Friday
             </Text>
