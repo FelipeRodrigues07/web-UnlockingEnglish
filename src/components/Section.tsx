@@ -130,6 +130,7 @@ export default function Section() {
               // loop
               controls
               controlsList="nodownload"
+               poster="video.png"
               style={{
                 width: "100%",
                 height: "100%",
