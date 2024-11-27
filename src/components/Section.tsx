@@ -14,6 +14,7 @@ import {
   useColorModeValue,
   useColorMode,
 } from "@chakra-ui/react";
+import { FaArrowDown } from "react-icons/fa";
 
 export default function Section() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -59,9 +60,19 @@ export default function Section() {
             </Text>
           </Heading>
           <Text color={isDark ? "#ffffff" : "gray.500"} >
-          O UnlockingEnglish é um curso completo que vai te ensinar a ouvir, escrever e falar Inglês fluentemente. 
-          Destrave o idioma que te leva a qualquer lugar do mundo e melhora suas chances no mercado de trabalho. 
+            O UnlockingEnglish é um curso completo que vai te ensinar a ouvir, escrever e falar Inglês fluentemente.
+            Destrave o idioma que te leva a qualquer lugar do mundo e melhora suas chances no mercado de trabalho.
           </Text>
+          <Stack align="center" spacing={2} direction={{ base: "column", sm: "row" }} display={{ base: "flex", md: "none" }}>
+            <Text
+              fontSize="15px"
+              fontWeight="bold"
+              color="black"
+            >
+              Mega promoção de Black Friday
+            </Text>
+            <FaArrowDown size={15} color={isDark ? "#ffffff" : "#050A30"} />
+          </Stack>
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}
@@ -74,13 +85,13 @@ export default function Section() {
               px={6}
               color="white"
               colorScheme={"red"}
-              bg={"#050A30"} //#51C33C
+              bg={{ base: "#050A30", sm: "#050A30", lg: "#050A30" }} //#51C33C
               _hover={{ bg: "gray.500" }}
               onClick={() => window.open("https://pay.hotmart.com/V82696580S?off=frua16zd&checkoutMode=10")}
             >
               comece agora
             </Button>
-            
+
           </Stack>
         </Stack>
         <Flex
@@ -114,7 +125,7 @@ export default function Section() {
             width={"full"}
             overflow={"hidden"}
           >
-             <video
+            <video
               // autoPlay
               // loop
               controls
@@ -131,7 +142,7 @@ export default function Section() {
                 src="unlocking_english.mp4"
                 type='video/mp4'
               />
-               Seu navegador não suporta a tag de vídeo.
+              Seu navegador não suporta a tag de vídeo.
             </video>
           </Box>
         </Flex>
