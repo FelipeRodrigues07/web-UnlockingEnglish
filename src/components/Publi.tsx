@@ -73,7 +73,7 @@ function Publi() {
             bg: "gray.500",
           }}
           color="white"
-          onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
+          onClick={() => window.open("https://pay.hotmart.com/V82696580S?off=frua16zd&checkoutMode=10")}
         >
           Comece agora
         </Button>

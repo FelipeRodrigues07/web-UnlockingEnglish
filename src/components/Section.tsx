@@ -76,7 +76,7 @@ export default function Section() {
               colorScheme={"red"}
               bg={"#050A30"} //#51C33C
               _hover={{ bg: "gray.500" }}
-              onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
+              onClick={() => window.open("https://pay.hotmart.com/V82696580S?off=frua16zd&checkoutMode=10")}
             >
               comece agora
             </Button>

@@ -37,7 +37,7 @@ function Pricing() {
         >
           <Card
             w={{ base: "270px", sm: "300px", md: "550px", lg: "800px" }}
-            h={{ base: "530px", sm: "490px", md: "490px", lg: "490px" }}
+            h={{ base: "550px", sm: "490px", md: "490px", lg: "490px" }}
             ml="35px"
             mr="35px"
             boxShadow="2xl"
@@ -65,7 +65,7 @@ function Pricing() {
                 R$
               </Text>
               <Text fontSize="25px" fontWeight="900">
-                 159
+                 89,52
               </Text>
               <Text fontSize="12px" color="gray.500">
                 /por mês
@@ -73,7 +73,12 @@ function Pricing() {
             </HStack>
             <Flex justifyContent="center">
             <Text fontSize="12px" color="gray.500">
-               Ou R$ 1.596,00 à vista
+               Ou R$ 897,00 à vista
+              </Text>
+              </Flex>
+            <Flex justifyContent="center">
+            <Text fontSize="12px" color="gray.500">
+            Mega desconto especial de Blackfriday
               </Text>
               </Flex>
               </Flex>
@@ -150,7 +155,7 @@ function Pricing() {
               colorScheme={"red"}
               bg={"#050A30"}
               _hover={{ bg: "gray.500" }}
-              onClick={() => window.open("https://pay.hotmart.com/V82696580S")}
+              onClick={() => window.open("https://pay.hotmart.com/V82696580S?off=frua16zd&checkoutMode=10")}
               mt="6px"
               mb="16px"
             

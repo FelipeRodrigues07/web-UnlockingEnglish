@@ -5,6 +5,10 @@ export default function Document() {
     <Html lang="pt-br">
        <Head>
         <meta name="description" content="UnlockingEnglish é um curso de aprendizado online que se dedica a aprimorar as habilidades em inglês dos alunos. Independente de você estar apenas começando sua jornada no aprendizado do inglês ou ser um profissional em busca de aperfeiçoamento, nosso curso foi projetado para atender a todos os níveis." />
+        <meta
+          property="og:title"
+          content="UnlockingEnglish - Curso de Inglês Online"
+        />
       </Head>
       <body>
         <Main />
