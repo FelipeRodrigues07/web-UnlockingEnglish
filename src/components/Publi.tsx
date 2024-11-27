@@ -66,7 +66,7 @@ function Publi() {
       >
         <Button
           colorScheme={"green"}
-          bg={"#050A30"}
+          bg={{ base: "#51C33C", sm: "#050A30", lg: "#050A30" }}
           rounded={"full"}
           px={6}
           _hover={{

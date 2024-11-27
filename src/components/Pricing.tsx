@@ -153,7 +153,7 @@ function Pricing() {
               px={6}
               color="white"
               colorScheme={"red"}
-              bg={"#050A30"}
+              bg={{ base: "#51C33C", sm: "#050A30", lg: "#050A30" }}
               _hover={{ bg: "gray.500" }}
               onClick={() => window.open("https://pay.hotmart.com/V82696580S?off=frua16zd&checkoutMode=10")}
               mt="6px"
