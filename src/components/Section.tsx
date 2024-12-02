@@ -63,7 +63,7 @@ export default function Section() {
             O UnlockingEnglish é um curso completo que vai te ensinar a ouvir, escrever e falar Inglês fluentemente.
             Destrave o idioma que te leva a qualquer lugar do mundo e melhora suas chances no mercado de trabalho.
           </Text>
-          <Stack align="center" spacing={2} direction={{ base: "column", sm: "row" }} display={{ base: "flex", md: "none" }}>
+          {/* <Stack align="center" spacing={2} direction={{ base: "column", sm: "row" }} display={{ base: "flex", md: "none" }}>
             <Text
               fontSize="15px"
               fontWeight="bold"
@@ -72,7 +72,7 @@ export default function Section() {
               Mega promoção de Black Friday
             </Text>
             <FaArrowDown size={15} color={isDark ? "#ffffff" : "#050A30"} />
-          </Stack>
+          </Stack> */}
           <Stack
             spacing={{ base: 4, sm: 6 }}
             direction={{ base: "column", sm: "row" }}

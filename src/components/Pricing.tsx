@@ -59,13 +59,13 @@ function Pricing() {
                </Flex>
            <HStack justifyContent="center">
            <Text fontSize="12px" color="gray.500">
-                12 x de
+            12 x de 
               </Text>
               <Text fontSize="25px" fontWeight="600">
                 R$
               </Text>
               <Text fontSize="25px" fontWeight="900">
-                 89,52
+              159,29
               </Text>
               <Text fontSize="12px" color="gray.500">
                 /por mês
@@ -73,14 +73,14 @@ function Pricing() {
             </HStack>
             <Flex justifyContent="center">
             <Text fontSize="12px" color="gray.500">
-               Ou R$ 897,00 à vista
+            Ou R$ 1.596,00 à vista
               </Text>
               </Flex>
-            <Flex justifyContent="center">
+            {/* <Flex justifyContent="center">
             <Text fontSize="12px" color="gray.500">
             Mega desconto especial de Blackfriday
               </Text>
-              </Flex>
+              </Flex> */}
               </Flex>
              <Flex w="100%" backgroundColor={isDark ? "#0D1117" : "gray.50"} h="340px"  flexDirection="column" >
              <Text fontSize="13px" mt="10px" mb="5px" ml="12px" fontWeight="bold">
